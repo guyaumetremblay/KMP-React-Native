@@ -1,4 +1,4 @@
-package com.mirego.kmp.boilerplate
+package com.example.kmpreactnative
 
 import kotlin.test.Test
 import kotlin.test.assertTrue

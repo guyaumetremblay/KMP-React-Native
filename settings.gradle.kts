@@ -15,6 +15,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "kmp-boilerplate"
+rootProject.name = "KmpReactNative"
 include(":androidApp")
 include(":shared")

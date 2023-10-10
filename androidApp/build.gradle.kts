@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.mirego.kmp.boilerplate"
+    namespace = "com.example.kmpreactnative"
     compileSdk = 34
     defaultConfig {
         minSdk = 21
         targetSdk = 34
 
-        applicationId = "com.mirego.kmp.boilerplate"
+        applicationId = "com.example.kmpreactnative"
         versionCode = 1
         versionName = "0.1"
     }

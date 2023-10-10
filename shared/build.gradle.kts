@@ -68,7 +68,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.mirego.kmp.boilerplate.common"
+    namespace = "com.example.kmpreactnative.common"
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
 
     compileSdk = 34
