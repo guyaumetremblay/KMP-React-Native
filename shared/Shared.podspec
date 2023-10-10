@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'Shared'
     spec.version                  = '0.1'
-    spec.homepage                 = 'https://github.com/mirego/your-project'
+    spec.homepage                 = 'https://github.com/guyaumetremblay/KMP-React-Native'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''

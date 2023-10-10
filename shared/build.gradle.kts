@@ -18,7 +18,7 @@ kotlin {
 
     cocoapods {
         summary = "Project summary"
-        homepage = "https://github.com/mirego/your-project"
+        homepage = "https://github.com/guyaumetremblay/KMP-React-Native"
         name = "Shared"
 
         ios.deploymentTarget = "14.1"

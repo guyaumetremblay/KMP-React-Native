@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.facebook.react")
 }
 
 android {
@@ -59,3 +60,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling)
     implementation(libs.androidx.compose.material)
 }
+
+apply(from = "../node_modules/@react-native-community/cli-platform-android/native_modules.gradle")
+val applyNativeModulesAppBuildGradle: groovy.lang.Closure<Any> by extra
+applyNativeModulesAppBuildGradle(project, null)

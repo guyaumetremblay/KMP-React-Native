@@ -9,6 +9,17 @@ plugins {
     alias(libs.plugins.ktlint) apply false
 }
 
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.facebook.react:react-native-gradle-plugin")
+    }
+}
+
+
 tasks.register("clean", Delete::class) {
     delete(rootProject.buildDir)
 }
